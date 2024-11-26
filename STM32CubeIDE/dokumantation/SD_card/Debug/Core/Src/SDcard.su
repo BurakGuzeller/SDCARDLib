@@ -1,0 +1,8 @@
+../Core/Src/SDcard.c:26:6:mountSDCard	8	static
+../Core/Src/SDcard.c:42:6:SDCardIsCapacity	16	static
+../Core/Src/SDcard.c:66:6:createSDFile	16	static
+../Core/Src/SDcard.c:94:6:createAndWriteSDFile	16	static
+../Core/Src/SDcard.c:115:6:LoggerSDFile	16	static
+../Core/Src/SDcard.c:153:6:readSDFileData	24	static
+../Core/Src/SDcard.c:202:6:readLargeSDFile	32	static
+../Core/Src/SDcard.c:245:6:removingSDFile	72	static

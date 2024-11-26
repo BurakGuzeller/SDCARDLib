@@ -1,0 +1,8 @@
+../Core/Src/SDcard.c:26:6:mountSDCard	2
+../Core/Src/SDcard.c:42:6:SDCardIsCapacity	2
+../Core/Src/SDcard.c:66:6:createSDFile	4
+../Core/Src/SDcard.c:94:6:createAndWriteSDFile	3
+../Core/Src/SDcard.c:115:6:LoggerSDFile	7
+../Core/Src/SDcard.c:153:6:readSDFileData	8
+../Core/Src/SDcard.c:202:6:readLargeSDFile	5
+../Core/Src/SDcard.c:245:6:removingSDFile	2
