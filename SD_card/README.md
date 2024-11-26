@@ -6,30 +6,30 @@
 ---
 2. SD kartın haberleşmesini sağlamak için SPI enable yapılmadı full master şeklinde aşağıdaki görselde inceleyebilirsiniz.
 
-![resim1](/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-35-45.png)
+![resim1](/SD_card/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-35-45.png)
 
 ---
 ---
-3. SD kart için debug mesjalarını dinlemek ve yazılan verileri ve okunan verileri gözlemlemek için uartı aktif ettim (opsiyonel).
+1. SD kart için debug mesjalarını dinlemek ve yazılan verileri ve okunan verileri gözlemlemek için uartı aktif ettim (opsiyonel).
 
-![resim2](/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-35-52.png)
+![resim2](/SD_card/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-35-52.png)
 
 ---
 
 ---
 4. Pinout konfigrasyonlarım bu şekildedir. CS pini ise SPI ın hangi birimle ya da hangi slave adfresi ile haberleşmeye geçmesini istediği bacaktır. SPI CS pini low durumunda slave enable olup high durumunda disable olmaktadır. Bunu stm32'nin bize sağladığı kütüphane dosyaları sağlamakta ama SD için.
 
-![resim3](/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-36-40.png)
+![resim3](/SD_card/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-36-40.png)
 
 ---
 5. Middleware and Software Packs sekmesi altında FatFS dosya sistemini enable yapmayı unutmayınız aşağıdaki görseldeki gibi.
 
-![resim4](/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-37-12.png)
+![resim4](/SD_card/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-37-12.png)
 
 
 > ayarlamaları aşağıda belirtildiği gibi yapınız fark ederseniz 2 paramterede değişiklik var sadece.
 
-![resim5](/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-37-23.png)
+![resim5](/SD_card/images/Ekran%20Görüntüsü%20-%202024-11-26%2010-37-23.png)
 
 ---
 
